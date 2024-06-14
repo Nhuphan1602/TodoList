@@ -23,7 +23,7 @@ struct DateScroller: View {
             }
             
             Text(dateFormatter())
-                .font(.title)
+                .font(.title2)
                 .bold()
                 .animation(.none)
                 .frame(maxWidth: .infinity)

@@ -20,6 +20,7 @@
 		B62A97F22C1C1692004A17F0 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A97F12C1C1692004A17F0 /* CheckBoxView.swift */; };
 		B62A97F52C1C17EF004A17F0 /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A97F42C1C17EF004A17F0 /* TaskItemExtension.swift */; };
 		B62A97F72C1C433D004A17F0 /* DateScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A97F62C1C433D004A17F0 /* DateScrollerView.swift */; };
+		B62A97F92C1C921A004A17F0 /* TaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A97F82C1C921A004A17F0 /* TaskFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B62A97F12C1C1692004A17F0 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		B62A97F42C1C17EF004A17F0 /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
 		B62A97F62C1C433D004A17F0 /* DateScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerView.swift; sourceTree = "<group>"; };
+		B62A97F82C1C921A004A17F0 /* TaskFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				B62A97D62C1B6A90004A17F0 /* Persistence.swift */,
 				B62A97F42C1C17EF004A17F0 /* TaskItemExtension.swift */,
 				B62A97ED2C1BFBDE004A17F0 /* DateHolder.swift */,
+				B62A97F82C1C921A004A17F0 /* TaskFilter.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				B62A97EC2C1BED60004A17F0 /* TaskEditView.swift in Sources */,
 				B62A97F22C1C1692004A17F0 /* CheckBoxView.swift in Sources */,
 				B62A97F02C1C1516004A17F0 /* TaskCellView.swift in Sources */,
+				B62A97F92C1C921A004A17F0 /* TaskFilter.swift in Sources */,
 				B62A97F72C1C433D004A17F0 /* DateScrollerView.swift in Sources */,
 				B62A97DC2C1B6A90004A17F0 /* TaskListView.swift in Sources */,
 				B62A97EE2C1BFBDE004A17F0 /* DateHolder.swift in Sources */,
