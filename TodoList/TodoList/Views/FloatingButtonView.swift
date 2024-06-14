@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FloatingButton: View {
+struct FloatingButtonView: View {
     
     @EnvironmentObject var dateHolder: DateHolder
     
@@ -29,5 +29,5 @@ struct FloatingButton: View {
 }
 
 #Preview {
-    FloatingButton()
+    FloatingButtonView()
 }

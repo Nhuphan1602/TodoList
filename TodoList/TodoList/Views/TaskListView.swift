@@ -25,7 +25,8 @@ struct TaskListView: View {
                         ForEach(items) { taskItem in
                             NavigationLink(destination: TaskEditView(passedTaskItem: taskItem,
                                                                      initialDate: Date()).environmentObject(dateHolder)) {
-                                Text("\(taskItem.dueDate!, formatter: itemFormatter)")
+                                TaskCellView(passedTaskItem: taskItem)
+                                    .environmentObject(dateHolder)
                             }
                         }
                         .onDelete(perform: deleteItems)
@@ -35,7 +36,7 @@ struct TaskListView: View {
                             EditButton()
                         }
                     }
-                    FloatingButton()
+                    FloatingButtonView()
                         .environmentObject(dateHolder)
                 }
             }.navigationTitle("To Do List")
