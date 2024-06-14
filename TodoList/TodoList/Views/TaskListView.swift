@@ -20,6 +20,10 @@ struct TaskListView: View {
     var body: some View {
         NavigationView {
             VStack {
+                DateScroller()
+                    .padding()
+                    .environmentObject(dateHolder)
+
                 ZStack {
                     List {
                         ForEach(items) { taskItem in
