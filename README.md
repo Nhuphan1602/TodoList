@@ -16,9 +16,11 @@ The To-Do List app is a sophisticated tool designed to help users manage their d
 - Swift 5
 
 ### Installation
-1. Clone the repository: git clone [https://github.com/yourusername/todolist-app.git](https://github.com/Nhuphan1602/TodoList-Swift.git)
-2. Open the project in Xcode: open TodoList.xcodeproj
-3. Build and run the application on your device or simulator.
+1. Clone the repository:
+```git clone https://github.com/Nhuphan1602/TodoList-Swift.git```
+3. Open the project in Xcode:
+```open TodoList.xcodeproj```
+5. Build and run the application on your device or simulator.
 
 ## Usage
 - **Add a Task:** Tap the '+ New Task' button.
